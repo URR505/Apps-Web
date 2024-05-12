@@ -8,13 +8,12 @@ html {
 }
 body {
     width: 1000px;
-    height: 950px;
     margin: auto;
     background-color: aqua;
 }
 
 section.box {
-    background-color: rgb(232, 255, 141);
+    background-color: rgb(255, 255, 255);
     width: 200px;
     height: 100px;
     float: left;
@@ -22,65 +21,61 @@ section.box {
     display: flex; /* Establece el elemento como un contenedor flex */
     justify-content: center; /* Alinea horizontalmente en el centro */
     align-items: center; /* Alinea verticalmente en el centro */
-    border: 2px solid black;
+    border: 10px solid #71AB47;
     box-sizing: border-box;
 }
 
 
 #banner {
-    background-color: rgb(67, 0, 47);
+    background-color: white;
     width: 800px;
     height: 300px;
     float: left;
     font-size: 30px;
-    color:white;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
+    border: 10px solid #4374C0;
     box-sizing: border-box;
 }
 #logo {
-    background-color: rgb(226, 43, 43);
+    background-color: white;
     width: 200px;
     height: 100px;
     float: left;
     font-size: 30px;
-    color:white;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
+    border: 10px solid #4374C0;
     box-sizing: border-box;
 }
 #login {
-    background-color: rgb(31, 8, 95);
+    background-color: white;
     width: 200px;
     height: 100px;
     float: left;
     font-size: 30px;
-    color:white;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
+    border: 10px solid #4374C0;
     box-sizing: border-box;
 }
 #form {
-    background-color: blueviolet;
+    background-color: white;
     width: 200px;
     height: 100px;
     float: left;
     font-size: 30px;
-    color:white;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
+    border: 10px solid #4374C0;
     box-sizing: border-box;
 }
 #left {
-    background-color: rgb(227, 137, 227);
+    background-color: white;
     width: 200px;
     height: 500px;
     float: left;
@@ -89,11 +84,11 @@ section.box {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
+    border: 10px solid #B3A681;
     box-sizing: border-box;
 }
 article {
-    background-color: gold;
+    background-color: white;
     width: 500px;
     height: 500px;
     float: left;
@@ -102,33 +97,31 @@ article {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
+    border: 10px solid #ACA697;
     box-sizing: border-box;
 }
 #right {
-    background-color: rgb(1, 67, 1);
+    background-color: white;
     width: 300px;
     height: 500px;
     float: left;
     font-size: 30px;
-    color:white;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
+    border: 10px solid #B3A681;
     box-sizing: border-box;
 }
 
 footer {
-    background-color: chocolate;
+    background-color: white;
     width: 1000px;
     height: 50px;
     float: left;
     font-size: 30px;
-    color:white;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
+    border: 10px solid #DDB720;
     box-sizing: border-box;
 }
