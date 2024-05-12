@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: black;
+}
+body {
+    width: 1000px;
+    height: 950px;
+    margin: auto;
+    background-color: aqua;
+}
+
+section.box {
+    background-color: rgb(232, 255, 141);
+    width: 200px;
+    height: 100px;
+    float: left;
+    font-size: 30px;
+    display: flex; /* Establece el elemento como un contenedor flex */
+    justify-content: center; /* Alinea horizontalmente en el centro */
+    align-items: center; /* Alinea verticalmente en el centro */
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+
+#banner {
+    background-color: rgb(67, 0, 47);
+    width: 800px;
+    height: 300px;
+    float: left;
+    font-size: 30px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+#logo {
+    background-color: rgb(226, 43, 43);
+    width: 200px;
+    height: 100px;
+    float: left;
+    font-size: 30px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+#login {
+    background-color: rgb(31, 8, 95);
+    width: 200px;
+    height: 100px;
+    float: left;
+    font-size: 30px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+#form {
+    background-color: blueviolet;
+    width: 200px;
+    height: 100px;
+    float: left;
+    font-size: 30px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+#left {
+    background-color: rgb(227, 137, 227);
+    width: 200px;
+    height: 500px;
+    float: left;
+    font-size: 30px;
+    color:rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+article {
+    background-color: gold;
+    width: 500px;
+    height: 500px;
+    float: left;
+    font-size: 30px;
+    color:rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+#right {
+    background-color: rgb(1, 67, 1);
+    width: 300px;
+    height: 500px;
+    float: left;
+    font-size: 30px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: chocolate;
+    width: 1000px;
+    height: 50px;
+    float: left;
+    font-size: 30px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
